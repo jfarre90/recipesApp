@@ -6,12 +6,14 @@ import './RecipeList.css';
 class RecipeList extends Component {
   
   static propTypes = {
-    recipes: PropTypes.arrayOf(PropTypes.object).isRequired
+    recipes: PropTypes.arrayOf(PropTypes.object).isRequired,
+    onDelete: PropTypes.func.isRequired
   }
   
   render() {
+    const {onDelete} = this.props;
     const recipes = this.props.recipes.map((r,index) => (
-      <Recipe key={index} {...r} /> //The last item will output the argument contained in each of the items.
+      <Recipe key={r.id} {...r} onDelete={onDelete} /> //The last item will output the argument contained in each of the items.
     ));
     
     return (

@@ -1,0 +1,13 @@
+{
+  "main.css": "/recipesApp/static/css/main.8a4b87e6.chunk.css",
+  "main.js": "/recipesApp/static/js/main.3d9a4357.chunk.js",
+  "main.js.map": "/recipesApp/static/js/main.3d9a4357.chunk.js.map",
+  "runtime~main.js": "/recipesApp/static/js/runtime~main.7869bdde.js",
+  "runtime~main.js.map": "/recipesApp/static/js/runtime~main.7869bdde.js.map",
+  "static/js/2.ad220ec5.chunk.js": "/recipesApp/static/js/2.ad220ec5.chunk.js",
+  "static/js/2.ad220ec5.chunk.js.map": "/recipesApp/static/js/2.ad220ec5.chunk.js.map",
+  "index.html": "/recipesApp/index.html",
+  "precache-manifest.d47cb01b4949e6d290b481a8954ee12c.js": "/recipesApp/precache-manifest.d47cb01b4949e6d290b481a8954ee12c.js",
+  "service-worker.js": "/recipesApp/service-worker.js",
+  "static/css/main.8a4b87e6.chunk.css.map": "/recipesApp/static/css/main.8a4b87e6.chunk.css.map"
+}
